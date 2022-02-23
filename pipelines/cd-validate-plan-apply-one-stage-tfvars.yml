@@ -38,7 +38,7 @@ stages :
   displayName: 'Terraform Deployment'
   jobs: 
   - deployment: production
-    displayName: 'Terraform Apply'
+    displayName: 'Terraform Prepare and Apply'
     environment: $(environment)
     continueOnError: false
     strategy:
